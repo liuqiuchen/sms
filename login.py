@@ -8,7 +8,6 @@ app = Flask(__name__)
 def do_login():
     """
     进行登录验证
-    :return:
     """
     error_msg = None
     if request.method == 'GET':
